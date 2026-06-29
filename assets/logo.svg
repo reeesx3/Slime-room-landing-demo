@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Логотип Липкая Лаборатория</title>
+  <desc id="desc">Вымышленный знак демо-студии со слаймом и буквами LL.</desc>
+  <defs>
+    <linearGradient id="logoBg" x1="20" y1="18" x2="136" y2="146" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe100"/>
+      <stop offset=".48" stop-color="#7ddef1"/>
+      <stop offset="1" stop-color="#ec5aa1"/>
+    </linearGradient>
+    <linearGradient id="slime" x1="42" y1="44" x2="124" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fbffb6"/>
+      <stop offset="1" stop-color="#8be600"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="72" fill="url(#logoBg)"/>
+  <path fill="rgba(255,255,255,.75)" d="M38 92c0-33 18-53 43-53 24 0 42 17 42 41 0 13-5 24-13 31-11 9-9 26-23 29-10 2-15-8-25-9-10-2-23 4-29-5-7-10 5-20 5-34Z"/>
+  <path fill="url(#slime)" d="M42 89c0-26 15-43 39-43 22 0 37 15 37 35 0 17-10 29-25 33-9 2-11 17-22 16-8-1-9-12-18-13-8-1-18 4-23-4-5-9 12-13 12-24Z"/>
+  <circle cx="61" cy="70" r="8" fill="#fff"/>
+  <circle cx="98" cy="72" r="8" fill="#fff"/>
+  <circle cx="63" cy="72" r="3" fill="#343a40"/>
+  <circle cx="96" cy="74" r="3" fill="#343a40"/>
+  <path d="M65 93c10 8 22 8 32 0" fill="none" stroke="#343a40" stroke-width="6" stroke-linecap="round"/>
+  <path d="M48 31c12-8 28-12 45-9" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".55"/>
+  <text x="80" y="145" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="27" font-weight="900">LL</text>
+</svg>

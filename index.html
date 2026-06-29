@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Демо-лендинг детской творческой студии: мастер-классы, дни рождения и программы со слаймами."
+    />
+    <title>Липкая Лаборатория | Демо-лендинг</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#hero" aria-label="Липкая Лаборатория, на главный экран">
+        <img src="assets/logo.svg" alt="Логотип Липкая Лаборатория" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Основная навигация" data-nav>
+        <a href="#slimes">Слаймы</a>
+        <a href="#birthday">Дни рождения</a>
+        <a href="#pricing">Прайс</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+        <a class="nav-cta" href="#contacts" data-contact-message="Демо-заявка: хочу узнать о мастер-классе.">Записаться</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/hero-studio.svg" alt="Иллюстрация яркой творческой студии" />
+        <div class="hero-tint"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Демо детской студии</p>
+          <h1 id="hero-title">Липкая Лаборатория</h1>
+          <p class="hero-subtitle">Мастер-классы, дни рождения и творческие программы для детей</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contacts" data-contact-message="Демо-заявка: хочу записаться на мастер-класс.">Записаться</a>
+            <a class="button button-secondary" href="#pricing">Смотреть прайс</a>
+          </div>
+          <div class="hero-badges" aria-label="Преимущества">
+            <span>Ярко</span>
+            <span>Безопасно</span>
+            <span>Весело</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-slimes" id="slimes" aria-labelledby="slimes-title">
+        <div class="decorative-layer section-decor slimes-decor" aria-hidden="true">
+          <span class="slime-decor slime-bubble slime-bubble-pink slimes-dot-title"></span>
+          <span class="slime-decor slime-blob slime-blob-lime slimes-blob-left"></span>
+          <span class="slime-decor slime-bubble slime-bubble-cyan slimes-dot-between"></span>
+          <span class="slime-decor slime-drip slime-drip-teal slimes-drip-right"></span>
+        </div>
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Выбираем, тянем, смешиваем</p>
+            <h2 id="slimes-title">Слаймы для каждого настроения</h2>
+            <p>Дети сами создают текстуру, цвет и украшения, а домой забирают готовый слайм.</p>
+          </div>
+          <div class="cards-grid slimes-grid" data-slimes-grid></div>
+        </div>
+      </section>
+
+      <section class="birthday-section" id="birthday" aria-labelledby="birthday-title">
+        <div class="birthday-panel">
+          <div class="decorative-layer birthday-decor" aria-hidden="true">
+            <span class="slime-decor slime-bubble slime-bubble-pink birthday-dot-top"></span>
+            <span class="slime-decor slime-bubble slime-bubble-cyan birthday-dot-copy"></span>
+            <span class="slime-decor slime-blob slime-blob-pink birthday-blob-corner"></span>
+            <span class="slime-decor slime-drip slime-drip-lime birthday-drip-card"></span>
+          </div>
+          <div class="birthday-copy">
+            <p class="eyebrow">Праздник без скучных пауз</p>
+            <h2 id="birthday-title">День рождения, который дети вспоминают с блеском</h2>
+            <p>
+              В каждом праздничном пакете — 2 часа программы, мастер-класс «Создание слайма» для гостей
+              и закрытие комнаты только для вашей компании.
+            </p>
+            <a class="button button-primary" href="#contacts" data-contact-message="Демо-заявка: интересует день рождения.">Узнать свободные даты</a>
+          </div>
+          <div class="birthday-card" aria-label="Что входит в программу">
+            <span class="birthday-label">В программе</span>
+            <ul>
+              <li>Слайм-шоу с готовым слаймом для каждого гостя</li>
+              <li>«Нащупай-шоу» с треш-боксом и ВАУ-наполнителем</li>
+              <li>«Серебряное шоу» в пакетах Стандарт и Макси</li>
+              <li>Фотозона в подарок при раннем бронировании</li>
+            </ul>
+          </div>
+          <div class="birthday-pricing" aria-labelledby="birthday-pricing-title">
+            <div class="birthday-pricing-heading">
+              <p class="eyebrow">Прайс дня рождения</p>
+              <h3 id="birthday-pricing-title">Праздничные пакеты для дня рождения</h3>
+              <p>Выберите формат по количеству гостей: каждый пакет включает 2 часа программы и слайм-мастер-класс.</p>
+            </div>
+            <div class="cards-grid pricing-grid birthday-pricing-grid" data-birthday-pricing-grid></div>
+            <div class="pricing-note birthday-pricing-note" aria-label="Дополнительная информация о праздничных пакетах">
+              <p><strong>Раннее бронирование:</strong> оформление фотозоны в подарок и скидка 5%.</p>
+              <p>
+                По желанию добавим шоу-квесты или дополнительные программы. Стоимость обсуждается отдельно,
+                выезды — по согласованию.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing-section" id="pricing" aria-labelledby="pricing-title">
+        <div class="decorative-layer section-decor pricing-decor" aria-hidden="true">
+          <span class="slime-decor slime-bubble slime-bubble-lime pricing-dot-heading"></span>
+          <span class="slime-decor slime-blob slime-blob-cyan pricing-blob-bg"></span>
+        </div>
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Прайс</p>
+            <h2 id="pricing-title">Демо-прайс</h2>
+            <p>
+              Примерные форматы и цены показаны для портфолио. Они не являются публичной офертой
+              или актуальным расписанием реальной студии.
+            </p>
+          </div>
+          <div class="cards-grid pricing-grid" data-pricing-grid></div>
+          <div class="pricing-note" aria-label="Дополнительная информация о прайсе студии">
+            <p><strong>Абонемент:</strong> 8000 рублей за 10 часов, срок действия — 2 месяца.</p>
+            <p><strong>Скидка:</strong> демонстрационный пример для визуального блока прайса.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="reviews" aria-labelledby="reviews-title">
+        <div class="decorative-layer section-decor reviews-decor" aria-hidden="true">
+          <span class="slime-decor slime-bubble slime-bubble-pink reviews-dot-left"></span>
+          <span class="slime-decor slime-bubble slime-bubble-cyan reviews-dot-right"></span>
+        </div>
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Отзывы</p>
+            <h2 id="reviews-title">Родители ценят настроение, дети просят прийти ещё</h2>
+          </div>
+          <div class="cards-grid reviews-grid" data-reviews-grid></div>
+        </div>
+      </section>
+
+      <section class="contacts-section" id="contacts" aria-labelledby="contacts-title">
+        <div class="decorative-layer section-decor contacts-decor" aria-hidden="true">
+          <span class="slime-decor slime-bubble slime-bubble-lime contacts-dot-title"></span>
+          <span class="slime-decor slime-blob slime-blob-pink contacts-blob-corner"></span>
+        </div>
+        <div class="contacts-layout">
+          <div class="contacts-info">
+            <p class="eyebrow">Контакты</p>
+            <h2 id="contacts-title">Демо-форма заявки</h2>
+            <p class="contact-intro">
+              Форма работает локально: данные не отправляются, не сохраняются и не передаются третьим лицам.
+            </p>
+            <form class="contact-form" action="#" method="post" data-demo-form>
+              <label>
+                <span>Имя</span>
+                <input type="text" name="name" autocomplete="name" placeholder="Демо-гость" required />
+              </label>
+              <label>
+                <span>Телефон</span>
+                <input
+                  type="tel"
+                  name="phone"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  maxlength="18"
+                  pattern="^\+7 \([0-9]{3}\) [0-9]{3}-[0-9]{2}-[0-9]{2}$"
+                  value="+7 (000) 000-00-00"
+                  data-phone-input
+                  required
+                />
+              </label>
+              <label>
+                <span>Комментарий</span>
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Например: демо-заявка на праздник"
+                ></textarea>
+              </label>
+              <button class="button button-primary" type="submit">Показать демо-ответ</button>
+            </form>
+          </div>
+
+          <aside class="map-placeholder map-card" aria-labelledby="map-title">
+            <div class="map-copy">
+              <p class="eyebrow">Карта</p>
+              <h3 id="map-title">Демонстрационный адрес</h3>
+              <p>Демонстрационный адрес, без точной геолокации и ссылок на карты.</p>
+              <span class="button button-secondary button-muted" aria-disabled="true">Карта скрыта в демо</span>
+            </div>
+            <div class="map-photo-space">
+              <img class="map-photo" src="assets/demo-map.svg" alt="Декоративная карта без реальных координат" />
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="decorative-layer footer-decor" aria-hidden="true">
+        <span class="slime-decor slime-bubble slime-bubble-cyan footer-dot-left"></span>
+        <span class="slime-decor slime-bubble slime-bubble-pink footer-dot-right"></span>
+      </div>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Логотип Липкая Лаборатория" />
+          <p>Творческая студия для детских мастер-классов, дней рождения и ярких программ.</p>
+        </div>
+        <div class="footer-contact">
+          <span>Для связи: +7 (000) 000-00-00</span>
+          <a href="#contacts">Демонстрационный адрес</a>
+          <span>Ежедневно 10:00-21:00</span>
+          <div class="footer-socials" aria-label="Социальные сети">
+            <span>Соцсети скрыты</span>
+            <span>Демо-режим</span>
+          </div>
+          <p class="footer-disclaimer">Демонстрационный проект для портфолио. Неофициальный сайт.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

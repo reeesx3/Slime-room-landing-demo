@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Клиар-слайм Огненная лава</title>
+  <desc id="desc">Авторская SVG-иллюстрация прозрачного оранжевого слайма.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff4ce"/>
+      <stop offset="1" stop-color="#ffe3ef"/>
+    </linearGradient>
+    <radialGradient id="slime" cx="50%" cy="42%" r="60%">
+      <stop stop-color="#fff7a7"/>
+      <stop offset=".45" stop-color="#ff9b3d"/>
+      <stop offset="1" stop-color="#ec5aa1"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="476" rx="300" ry="54" fill="#ec5aa1" opacity=".16"/>
+  <path d="M164 338c0-111 89-194 219-194 142 0 254 73 254 182 0 73-51 126-126 149-74 23-176 24-250 0-60-20-97-69-97-137Z" fill="url(#slime)"/>
+  <path d="M215 307c24-78 98-121 197-120 75 0 137 24 173 67" fill="none" stroke="#fff" stroke-width="22" stroke-linecap="round" opacity=".58"/>
+  <path d="M311 250c23 44-35 77-13 126 13 29 50 39 76 25 44-23-3-75 45-114 30-25 84-13 103 18" fill="none" stroke="#fff2a8" stroke-width="18" stroke-linecap="round" opacity=".75"/>
+  <circle cx="286" cy="392" r="15" fill="#fff"/>
+  <circle cx="507" cy="236" r="18" fill="#fff"/>
+  <circle cx="561" cy="372" r="11" fill="#ffe100"/>
+  <circle cx="381" cy="448" r="12" fill="#fff8c7"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+  <title id="title">Демонстрационная карта</title>
+  <desc id="desc">Абстрактная карта без реального адреса, координат и сторонних картографических данных.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="760" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7fdff"/>
+      <stop offset="1" stop-color="#d7f8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="760" rx="40" fill="url(#bg)"/>
+  <path d="M78 152c110-42 218-44 324-5 91 34 182 32 273-6" fill="none" stroke="#7ddef1" stroke-width="52" stroke-linecap="round" opacity=".78"/>
+  <path d="M92 594c119-88 258-118 417-89 55 10 112 28 168 54" fill="none" stroke="#ffe100" stroke-width="58" stroke-linecap="round" opacity=".82"/>
+  <path d="M195 83c-14 178 19 326 99 443 42 61 94 108 157 139" fill="none" stroke="#ec5aa1" stroke-width="42" stroke-linecap="round" opacity=".72"/>
+  <path d="M616 103c-75 92-103 184-84 276 13 63 49 121 109 173" fill="none" stroke="#8be600" stroke-width="44" stroke-linecap="round" opacity=".64"/>
+  <g fill="#ffffff" stroke="#00aeb5" stroke-width="8">
+    <rect x="116" y="258" width="122" height="92" rx="22"/>
+    <rect x="478" y="210" width="142" height="108" rx="24"/>
+    <rect x="298" y="530" width="132" height="96" rx="24"/>
+  </g>
+  <g>
+    <path d="M380 250c-64 0-116 51-116 114 0 83 116 197 116 197s116-114 116-197c0-63-52-114-116-114Z" fill="#ec5aa1"/>
+    <circle cx="380" cy="365" r="44" fill="#fff"/>
+    <circle cx="380" cy="365" r="20" fill="#ffe100"/>
+  </g>
+  <rect x="204" y="84" width="352" height="64" rx="32" fill="#fff" opacity=".88"/>
+  <circle cx="250" cy="116" r="16" fill="#8be600"/>
+  <rect x="282" y="102" width="210" height="28" rx="14" fill="#7ddef1" opacity=".9"/>
+</svg>

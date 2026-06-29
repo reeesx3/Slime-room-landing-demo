@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Кранч-слайм Зимний хрусталь</title>
+  <desc id="desc">Авторская SVG-иллюстрация голубого слайма с хрустящими шариками.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e5fbff"/>
+      <stop offset="1" stop-color="#f7fdff"/>
+    </linearGradient>
+    <linearGradient id="slime" x1="180" y1="142" x2="628" y2="474" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".45" stop-color="#7ddef1"/>
+      <stop offset="1" stop-color="#00aeb5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="401" cy="478" rx="290" ry="48" fill="#00aeb5" opacity=".14"/>
+  <path d="M162 351c-7-92 56-174 175-196 145-27 287 39 308 151 14 75-27 139-99 171-71 32-183 37-266 9-72-24-113-72-118-135Z" fill="url(#slime)"/>
+  <path d="M226 301c41-69 124-104 232-92 74 8 126 32 164 74" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" opacity=".7"/>
+  <g fill="#ffffff" opacity=".9">
+    <circle cx="274" cy="353" r="18"/>
+    <circle cx="331" cy="419" r="15"/>
+    <circle cx="403" cy="342" r="20"/>
+    <circle cx="489" cy="421" r="17"/>
+    <circle cx="552" cy="338" r="15"/>
+    <circle cx="350" cy="263" r="13"/>
+    <circle cx="462" cy="269" r="12"/>
+  </g>
+  <g fill="#b7f7ff">
+    <path d="M616 131l15 33 36 5-26 24 7 35-32-17-31 17 6-35-25-24 35-5Z"/>
+    <path d="M173 181l10 23 25 4-18 17 4 25-21-12-22 12 5-25-19-17 26-4Z"/>
+  </g>
+</svg>
