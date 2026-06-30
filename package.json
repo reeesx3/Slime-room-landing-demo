@@ -1,0 +1,17 @@
+{
+  "name": "slime-room-landing-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unofficial responsive portfolio landing page for a fictional slime workshop.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "node --check script.js && node scripts/validate-site.mjs",
+    "test": "node scripts/validate-site.mjs",
+    "check": "npm run lint && npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

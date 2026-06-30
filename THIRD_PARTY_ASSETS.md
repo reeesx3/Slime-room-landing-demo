@@ -13,6 +13,7 @@ All public images are original SVG/CSS graphics created for this repository. The
 | `assets/butter-slime-star-dust.svg` | Created in this repository | Project author, Codex-assisted | Project-owned demo asset | No external attribution required |
 | `assets/review-demo.svg` | Created in this repository | Project author, Codex-assisted | Project-owned demo asset | No external attribution required |
 | `assets/demo-map.svg` | Created in this repository | Project author, Codex-assisted | Project-owned demo asset | No external attribution required |
+| `assets/social-preview.png` | Screenshot generated from this repository's local demo page | Project author, Codex-assisted | Project-owned demo asset | No external attribution required |
 
 ## Removed Or Replaced
 
